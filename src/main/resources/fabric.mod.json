@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"com.fishingbell.FishingBell"
+		],
+		"client": [
+			"com.fishingbell.FishingBellClient"
 		]
 	},
 	"mixins": [

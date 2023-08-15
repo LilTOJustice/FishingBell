@@ -19,9 +19,9 @@ public class FishingBell implements ModInitializer {
 			FabricEntityTypeBuilder.create(SpawnGroup.MISC, (EntityType.EntityFactory<BellFishingBobberEntity>)BellFishingBobberEntity::new).disableSaving().disableSummon().dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeBlocks(4).trackedUpdateRate(5).build()
 		);
 
-	public static final Item BELL_FISHING_ROD = 
+	public static final Item BELL_FISHING_ROD =
 		Registry.register(Registries.ITEM,
-		new Identifier("fishingbell", "bell_fishing_rod_item"),
+		new Identifier("fishingbell", "bell_fishing_rod"),
 		new BellFishingRodItem(new FabricItemSettings().maxCount(1).maxDamage(64))
 	);
 
