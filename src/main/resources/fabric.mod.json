@@ -23,7 +23,11 @@
 		]
 	},
 	"mixins": [
-		"fishingbell.mixins.json"
+		"fishingbell.mixins.json",
+		{
+			"config": "fishingbell.client.mixins.json",
+			"environment": "client"
+		}
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
