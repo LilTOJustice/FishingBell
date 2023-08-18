@@ -1,7 +1,7 @@
 # FishingBell
 FABRIC ONLY
 
-Craft a fishing rod by using a fishing rod and a bell in any shape in a crafting table.
+Craft a bell fishing rod by using a fishing rod and a bell in any shape in a crafting table.
 When something hooks on to the rod, the bell will ring.
 
 How to install:
