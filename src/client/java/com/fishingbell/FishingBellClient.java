@@ -15,7 +15,7 @@ public class FishingBellClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		ModelPredicateProviderRegistry.register(BELL_FISHING_ROD, new Identifier("cast"), (itemStack, clientWorld, livingEntity, seed) -> {
-			if (livingEntity == null) {
+			if (livingEntity == null || !(livingEntity instanceof PlayerEntity)) {
 				return 0.0F;
 			}
 

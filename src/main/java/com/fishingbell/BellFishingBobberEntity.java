@@ -67,7 +67,7 @@ public class BellFishingBobberEntity extends FishingBobberEntity {
         ItemStack itemStack2 = player.getOffHandStack();
         boolean bl = itemStack.isOf(FishingBell.BELL_FISHING_ROD);
         boolean bl2 = itemStack2.isOf(FishingBell.BELL_FISHING_ROD);
-        if (player.isRemoved() || !player.isAlive() || !bl && !bl2 || this.squaredDistanceTo(player) > 1024.0) {
+        if (player.isRemoved() || !player.isAlive() || !bl && !bl2 || this.squaredDistanceTo(player) > 4096.0) {
             this.discard();
             return true;
         }
