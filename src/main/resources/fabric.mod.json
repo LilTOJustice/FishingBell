@@ -3,7 +3,7 @@
 	"id": "fishingbell",
 	"version": "${version}",
 	"name": "Fishing Bell",
-	"description": "Hear a bell ring when your fishing rod catches something and you have a bell in your offhand!",
+	"description": "Adds a new bell fishing rod!",
 	"authors": [
 		"LilTOJustice"
 	],
